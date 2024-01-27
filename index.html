@@ -1,11 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Your Restaurant </title>
+    <meta name="viewport" content="width=device-width,
+    user-scalable=yes, initial-scale=1.0, maximum-
+    scale=3.0, minimum-scale=1.0">
+
+<link rel="stylesheet" href="css/estilos.css">
+
+<link href="https://file.myfontastic.com/krL5SyyRkCTrpxHkmJvRSc/icons.css" rel="stylesheet">
 </head>
+
 <body>
-    <p>DUDU Y BUBU :D </p>
+ <header class="main-header">
+     <div class="container container--flex">
+         <div class="logo-container column column--50">
+         <h1 class="logo">Navidades Poge</h1>
+     </div>
+    <div class="main-header__contactInfo column column--50">
+      <p class="main-header__contactInfo__phone">
+        <span class="icon-telefono">556-134-46-42 / 722-453-03-05</span> 
+       
+        </p>
+        <p class="main-header__contactInfo__address">
+            <span class="icon-ubicacion">Ocoyoacac, Estado de México.</span> 
+        </p>
+    </div>
+</div>
+ </header>
+
+
+ <nav class="main-nav">
+     <div class="container container--flex">
+         <span class="icon-menu" id="btnmenu"></span>
+        <ul class="menu" id="menu">
+            <li class="menu__item"><a href="index.html" class="menu__link menu__link--select">Inicio</a>
+            </li>
+            <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosostros</a></li>
+            <li class="menu__item"><a href="galeria.html" class="menu__link">Galería</a></li>
+            <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
+        </ul>
+        <div class="social-icon">
+            <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+            <a href="" class="social-icon__link"><span class="icon-youtube"></span></a>
+            <a href="" class="social-icon__link"><span class="icon-e-mail"></span></a>
+        </div>
+        </div>
+ </nav>
+
+ <section class="banner">
+     <img src="imagenes/banner_m.jpg" alt="" class="banner__img">
+     <div class="banner__content">"El aroma de la naturaleza hasta tu hogar"</div>
+ </section>
+
+ <main class="main">
+     <section class="group group--color">
+         <div class="container">
+             <h2 class="main__title">Bienvenidos</h2>
+             
+             <p class="main__txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                 Blanditiis reiciendis error sit, est, non natus similique at quos cum dolores officiis
+                  nam recusandae. Accusamus maxime perferendis odit rem sit molestiae?</p>
+         </div>
+        </section>
+
+
+<section class="group main__about__description">
+    <div class="container container--flex">
+        <div class="column column--50">
+            <img src="imagenes/todos_casa_dos.jpeg" alt=""> 
+        </div>
+        <div class="column column--50">
+            <h3 class="column__title">Experiencia, calidad y precio</h3>
+        <p class="column__txt">Lorem ipsum dolor sit amet, consectetur 
+            adipisicing elit. Beatae laborum quibusdam cupiditate repellat 
+            suscipit nemo delectus, magni perferendis, odit aut consequuntur,
+         illum culpa autem ducimus eligendi dicta! Iusto, possimus corporis.</p>
+         <a href="" class="btn btn--contact">Contact</a>
+</div>
+    </div>
+</section>
+
+
+<section class="group today-special">
+    <h2 class="group__title">Lo mas nuevo</h2>
+    <div class="container container--flex">
+        <div class="column column--50-25">
+            <img src="imagenes/muñeco_nieve.jpeg" alt="" class="today-special__img">
+            <div class="today-special__title">Muñeco de nieve</div>
+            <div class= "today-special__price">$150</div>
+        </div>
+        <div class="column column--50-25">
+            <img src="imagenes/venado.jpeg" alt="" class="today-special__img">
+            <div class="today-special__title">Venado de vara (1.60m)</div>
+            <div class= "today-special__price">$1200</div>
+        </div>
+        <div class="column column--50-25">
+            <img src="imagenes/hoja.jpeg" alt="" class="today-special__img">
+            <div class="today-special__title">Corona de hoja</div>
+            <div class= "today-special__price">$300</div>
+        </div>
+        <div class="column column--50-25">
+            <img src="imagenes/surtida.jpeg" alt="" class="today-special__img">
+            <div class="today-special__title">Corona surtida</div>
+            <div class= "today-special__price">$300</div>
+        </div>
+    </div>
+</section>
+
+ </main>
+<footer class="main-footer">
+    <div class="container container--flex">
+    <div class="column column--33">
+        <h2 class="column__title">¿por que visitarnos?</h2>
+    <p class="column__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Maiores nemo, soluta illo fuga eaque, ipsa ipsum, voluptas sunt doloremque
+          sit reiciendis! Molestias distinctio aliquam ducimus culpa architecto 
+          similique pariatur illo?</p>
+</div>
+
+    <div class="column column--33">
+        <h2 class="column__title">Contactanos</h2>
+    <p class="column__txt">Ocoyoacac, San Pedro Atlapulco </p>
+    <p class="column__txt">Telefono: 713-122-818</p>
+    <p class="column__txt">navidades@hotmail.com</p>
+</div>
+
+    <div class="column column--33">
+        <h2 class="column__title">siguenos en nuestras redes</h2>
+    
+    <p class="column__txt"><a href="" class="icon-telefono">siguenos</a></p>
+    <p class="column__txt"><a href="" class="icon-ubicacion">visita nuestro canal</a></p>
+    
+</div>
+<p class="copy">Irving Rogelio Peña Ramírez</p>
+</div>
+</footer>
+<script src="js/menu.js">
+</script>
 </body>
 </html>
