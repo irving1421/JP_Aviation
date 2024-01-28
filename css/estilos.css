@@ -43,7 +43,7 @@ margin:auto;
 
 .logo{
     font-size:1.8em ;
-    color:#DE423A;
+    color:#262626;
     padding: 10px ;
     font-family: 'Mountains of Christmas', cursive;
     font-weight: 100;
@@ -51,7 +51,7 @@ margin:auto;
 }
 
 .main-header__contactInfo__phone{
-    background:#DE423A ;
+    background:#262626 ;
     color:white;
     margin: 0 auto;
     padding: 10px;
@@ -140,11 +140,11 @@ right: 5px;
 }
 
 .menu__link:hover{
-    background:#DE423A ;
+    background:#262626 ;
 }
 
 .menu__link--select{
-    background:#DE423A ;
+    background:#262626 ;
 
 }
 
@@ -192,7 +192,7 @@ right: 5px;
 /* --------------------estilos PRINCIPALES----------------------------*/
 
 .group--color .container{
-    background: #10a330;
+    background: #262626;
     color: rgb(255, 255, 255);
     padding: 10px;
     text-align:center ;
@@ -223,7 +223,7 @@ right: 5px;
     text-align: center;
     text-decoration: none;
     width: 120px;
-    background: #DE423A;
+    background: #262626;
     color: white;
     padding: 10px;
     margin: 10px auto;
@@ -255,13 +255,13 @@ right: 5px;
 }
 .today-special__price{
     font-size: 1.5em;
-    color: #DE423A;
+    color: #262626;
     font-weight: bold;
 
 }
 /* --------------------estilos footer----------------------------*/
 .main-footer{
-    background:rgb(9, 161, 231);
+    background:rgb(26, 26, 26);
     color:white;
     padding: 10px;
     padding-top: 20px;
