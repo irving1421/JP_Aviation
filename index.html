@@ -1,143 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
+ 
 <head>
     <meta charset="UTF-8">
-    <title>JP Aviation </title>
-    <meta name="viewport" content="width=device-width,
-    user-scalable=yes, initial-scale=1.0, maximum-
+    <meta name="viewport" content="width=device-width=device-width, 
+    user-scalable=yes,initial-scale=1.0 maximum-
     scale=3.0, minimum-scale=1.0">
-
-<link rel="stylesheet" href="css/estilos.css">
-
-<link href="https://file.myfontastic.com/krL5SyyRkCTrpxHkmJvRSc/icons.css" rel="stylesheet">
+    <title>lol</title>
+    <link rel="stylesheet" href="estilos/estilos_avion.css"> 
+    <link rel="stylesheet" href="estilos/estilos_menu.css">
+    <link rel="stylesheet" href="estilos/estilos_contenido.css">
+    <script src="./script.js"></script>
 </head>
 
 <body>
- <header class="main-header">
-     <div class="container container--flex">
-         <div class="logo-container column column--50">
-         <h1 class="logo">.</h1>
-     </div>
-    <!--<div class="main-header__contactInfo column column--50">
-      <p class="main-header__contactInfo__phone">
-        <span class="icon-telefono">.</span> 
-       
-        </p>
-        <p class="main-header__contactInfo__address">
-            <span class="icon-ubicacion">.</span> 
-        </p>
-    </div>-->
-</div>
- </header>
+    
 
 
- <nav class="main-nav">
-     <div class="container container--flex">
-         <span class="icon-menu" id="btnmenu"></span>
-        <ul class="menu" id="menu">
-            <li class="menu__item"><a href="index.html" class="menu__link menu__link--select">Inicio</a>
-            </li>
-            <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosostros</a></li>
-            <li class="menu__item"><a href="galeria.html" class="menu__link">Servicios</a></li>
-            <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
-        </ul>
-        <div class="social-icon">
-            <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
-            <a href="" class="social-icon__link"><span class="icon-youtube"></span></a>
-            <a href="" class="social-icon__link"><span class="icon-e-mail"></span></a>
-        </div>
-        </div>
- </nav>
+    <div id="banner">
+        <img src="imagenes/lsa.png"id="img_banner1" >
+    </div>
+    <div id="banner-2">
+        <img src="imagenes/lsb.png"id="img_banner2" >
+    </div>
+    
+    <nav class="menu">
+        <section class="menu__container">
+            <h1 class="menu__logo">JP AVIATION</h1>
 
- <section class="banner">
-     <img src="imagenes/banner_m.jpg" alt="" class="banner__img">
-     <div class="banner__content">*</div>
- </section>
+            <ul class="menu__links">
+                <li class="menu__item">
+                    <a href="#tab1" class="menu__link">INICIO</a>
+                </li>
 
- <main class="main">
-     <section class="group group--color">
-         <div class="container">
-             <h2 class="main__title">Bienvenidos</h2>
-             
-             <p class="main__txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                 Blanditiis reiciendis error sit, est, non natus similique at quos cum dolores officiis
-                  nam recusandae. Accusamus maxime perferendis odit rem sit molestiae?</p>
-         </div>
+                <li class="menu__item menu__item--show">
+                    <a href="#tab2" class="menu__link">NOSOTROS <img src="assets/arrow.svg" class="menu__arrow"></a>
+
+                    <ul class="menu__nesting">
+                        <li class="menu__inside">
+                            <a href="#" class="menu__link menu__link--inside">MISIÓN</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="#" class="menu__link menu__link--inside">VISIÓN</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="#" class="menu__link menu__link--inside">VALORES</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="menu__item  menu__item--show">
+                    <a href="#tab3" class="menu__link">SERVICIOS <img src="assets/arrow.svg" class="menu__arrow"></a>
+
+                    <ul class="menu__nesting">
+                        <li class="menu__inside">
+                            <a href="#" class="menu__link menu__link--inside">HANDLING MEXICO</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="#" class="menu__link menu__link--inside">HANDLIG EXTRANJERO</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="#" class="menu__link menu__link--inside">AVIONES</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="menu__item">
+                    <a href="tab4" class="menu__link">CONTACTO</a>
+
+                    
+                </li>
+
+            </ul>
+           
+
+            <div class="menu__hamburguer">
+                <img src="assets/menu.svg" class="menu__img">
+            </div>
         </section>
 
 
-<section class="group main__about__description">
-    <div class="container container--flex">
-        <div class="column column--50">
-            <img src="imagenes/banner_m.jpg" alt=""> 
-        </div>
-        <div class="column column--50">
-            <h3 class="column__title">Experiencia, calidad y precio</h3>
-        <p class="column__txt">Lorem ipsum dolor sit amet, consectetur 
-            adipisicing elit. Beatae laborum quibusdam cupiditate repellat 
-            suscipit nemo delectus, magni perferendis, odit aut consequuntur,
-         illum culpa autem ducimus eligendi dicta! Iusto, possimus corporis.</p>
-         <a href="" class="btn btn--contact">Contact</a>
-</div>
+    </nav>
+
+    <div class="secciones">
+        <article id="tab1">
+           <h1>INICIO</h1> <BR></BR> 
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ut cum assumenda, sapiente eaque in mollitia quis odit, officiis molestiae soluta accusantium ab nesciunt dolorem est debitis doloremque animi dolor!</p> <BR></BR> 
+        </article>
+        <article id="tab2">
+            <h1>NOSOTROS</h1> <BR></BR> 
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ut cum assumenda, sapiente eaque in mollitia quis odit, officiis molestiae soluta accusantium ab nesciunt dolorem est debitis doloremque animi dolor!</p>  <BR></BR>  
+         </article>
+         <article id="tab3">
+            <h1>SERVICIOS</h1> <BR></BR> 
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ut cum assumenda, sapiente eaque in mollitia quis odit, officiis molestiae soluta accusantium ab nesciunt dolorem est debitis doloremque animi dolor!</p>   <BR></BR> 
+         </article>
+         <article id="tab4">
+            <h1>CONTACTO</h1> <BR></BR> 
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ut cum assumenda, sapiente eaque in mollitia quis odit, officiis molestiae soluta accusantium ab nesciunt dolorem est debitis doloremque animi dolor!</p>  <BR></BR>  
+         </article>
     </div>
-</section>
-
-
-<section class="group today-special">
-    <h2 class="group__title">Lo mas nuevo</h2>
-    <div class="container container--flex">
-        <div class="column column--50-25">
-            <img src="imagenes/banner_m.jpg" alt="" class="today-special__img">
-            <div class="today-special__title">avion</div>
-            <div class= "today-special__price">$150</div>
-        </div>
-        <div class="column column--50-25">
-            <img src="imagenes/banner_m.jpg" alt="" class="today-special__img">
-            <div class="today-special__title">helicoptero</div>
-            <div class= "today-special__price">$1200</div>
-        </div>
-        <div class="column column--50-25">
-            <img src="imagenes/banner_m.jpg" alt="" class="today-special__img">
-            <div class="today-special__title">jet</div>
-            <div class= "today-special__price">$300</div>
-        </div>
-        <div class="column column--50-25">
-            <img src="imagenes/banner_m.jpg" alt="" class="today-special__img">
-            <div class="today-special__title">avioneta</div>
-            <div class= "today-special__price">$300</div>
-        </div>
-    </div>
-</section>
-
- </main>
-<footer class="main-footer">
-    <div class="container container--flex">
-    <div class="column column--33">
-        <h2 class="column__title">¿por que visitarnos?</h2>
-    <p class="column__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-         Maiores nemo, soluta illo fuga eaque, ipsa ipsum, voluptas sunt doloremque
-          sit reiciendis! Molestias distinctio aliquam ducimus culpa architecto 
-          similique pariatur illo?</p>
-</div>
-
-    <div class="column column--33">
-        <h2 class="column__title">Contactanos</h2>
-    <p class="column__txt">Toluca, Estado de México </p>
-    <p class="column__txt">Telefono: 722-414-0977</p>
-    <p class="column__txt">ops@jpaviation.com.mx</p>
-</div>
-
-    <div class="column column--33">
-        <h2 class="column__title">siguenos en nuestras redes</h2>
+     
     
-    <p class="column__txt"><a href="" class="icon-telefono">siguenos</a></p>
-    <p class="column__txt"><a href="" class="icon-ubicacion">visita nuestro canal</a></p>
-    
-</div>
-<p class="copy">Irving Rogelio Peña Ramírez</p>
-</div>
-</footer>
-<script src="js/menu.js">
-</script>
+    <script src="js/app.js"></script>
+    <script src="js/enlaces.js"></script>
+
 </body>
 </html>
